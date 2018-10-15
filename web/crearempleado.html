@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="tablausuarios.css">
+        <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    </head>
+    <body id ="dd" onload="hola()">
+
+        <div class="menu">
+            <ul class ="horizontal">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Empleados</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Ventas</a></li>
+                <li><a href="acercade.jsp">Acerca de</a></li>
+                <li><a href="">Panel de control</a></li>
+                <li><a href="">Salir</a></li>
+            </ul>
+        </div>
+        <form id="aa" name="Login" method="post" action ="/controlusuarios/Crearempleado">
+            <table border = "1">
+                <thead>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Fecha inicio contrato</td>
+                        <td>Fecha fin contrato</td>
+                        <td>Sueldo</td>
+                        <td></td>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td><input type="text" name="nombre" id="nombre" placeholder=""/></td>
+                    <td><input type="text" name="fecha1" id="fecha1" placeholder=""/></td>
+                    <td><input type="text" name="fecha2" id="fecha2" placeholder=""/></td>
+                    <td><input type="text" name="telefono" id="telefono" placeholder=""/></td>
+                    <td><input type="submit" value="Login" id="boton" /></td>
+            </tr>
+            </table>
+
+        </form>
+
+    </body>
+</html>
+

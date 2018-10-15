@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-jun-2018, 21:25:30
+    Author     : Durfen
+*/
+body{
+    background-color:  #e5e3e3;
+}
+.menu{
+    top: -8px;
+    left: -8px;
+    margin:0px;
+    padding:0px;
+    width: 110%;
+    height: 60px;;
+    background: black;
+    position: relative; 
+}
+.menu li {
+    display: inline-block;
+}
+.horizontal{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.horizontal li{
+    margin:0px 0px;
+    display: inline-block;
+    float: left;
+    padding: 10px 15px;
+
+}
+.horizontal li a{
+    font-family: Arial;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+.horizontal li a:hover{
+    background-color:#434343;
+
+}
+.desplegable > li {
+    float:left;
+}
+
+.desplegable li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.desplegable li a:hover {
+    background-color:#434343;
+}
+
+.desplegable li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.desplegable li:hover > ul {
+    display:block;
+}
+
+.desplegable li ul li {
+    position:relative;
+}
+
+.desplegable li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.resaltado{
+    color: blue;
+}
+table{
+    
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th, td{
+    
+    padding: 20px;
+    
+}
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+

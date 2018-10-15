@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-jun-2018, 21:25:30
+    Author     : Durfen
+*/
+body{
+    background-color:  #e5e3e3;
+}
+.menu{
+    top: -8px;
+    left: -8px;
+    margin:0px;
+    padding:0px;
+    width: 101.2%;
+    height: 60px;
+    background: black;
+    position: relative; 
+}
+.menu li {
+    display: inline-block;
+}
+.menu li ul{
+    position: absolute;
+    width: 0px;
+    overflow: hidden;
+}
+.menu li:hover li a,
+.menu li:focus li a {
+    display: block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10px;
+    border-top: 1px solid #e5e5e5;
+    background: black;
+}
+.menu li:hover ul,
+.menu li:focus ul {
+    margin:0px 0px;
+    width: 100%;
+    z-index: 5;
+    margin: 0 -2rem -2rem -2rem;
+    padding: 0 1rem 1rem 1rem;
+    background:  #b8b2b2;
+}
+.menu li li a:hover,
+.menu li li a:focus {
+    
+    background: #8AA9B8; 
+}
+.horizontal{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.horizontal li{
+    margin:0px 0px;
+    display: inline-block;
+    float: left;
+    padding: 10px 15px;
+
+}
+.horizontal li a{
+    font-family: Arial;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+.horizontal li a:hover{
+    background-color:#434343;
+
+}
+.desplegable > li {
+    float:left;
+}
+
+.desplegable li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.desplegable li a:hover {
+    background-color:#434343;
+}
+
+.desplegable li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.desplegable li:hover > ul {
+    display:block;
+}
+
+.desplegable li ul li {
+    position:relative;
+}
+
+.desplegable li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.resaltado{
+    color: blue;
+}
+
