@@ -1,8 +1,4 @@
-<%-- 
-    Document   : tablausuarios
-    Created on : 08-jun-2018, 18:43:17
-    Author     : Durfen
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

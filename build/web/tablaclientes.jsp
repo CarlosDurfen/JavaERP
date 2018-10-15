@@ -1,8 +1,4 @@
-<%-- 
-    Document   : tablausuarios
-    Created on : 09-jun-2018, 12:31:06
-    Author     : Durfen
---%>
+
 
 <%@page import="java.util.List"%>
 <%@page import="utilidad.Conexion"%>

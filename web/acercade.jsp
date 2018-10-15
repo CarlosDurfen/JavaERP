@@ -1,8 +1,3 @@
-<%-- 
-    Document   : acercade
-    Created on : 09-jun-2018, 0:09:10
-    Author     : Durfen
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
