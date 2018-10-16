@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  *
  * @author Durfen
  */
-//Singleton class
+
 public class Conexion {
     //Declaration of the comun variables
     private Connection cn = null;
